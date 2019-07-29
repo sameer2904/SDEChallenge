@@ -1,3 +1,5 @@
+package com.paytm.SDEChallenge;
+
 /**
  * This class stores the stream of data and returns floating average of the elements in the window.
  * Window store N last added number in the queue.

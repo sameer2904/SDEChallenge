@@ -22,3 +22,11 @@ We need to provide Google Analytic like services to our customers. Please provid
 3. Provide metrics to customers with at most one hour delay.
 4. Run with minimum downtime.
 5. Have the ability to reprocess historical data in case of bugs in the processing logic.
+
+
+# Solution
+### Coding problem
+`MovingAverage.java` is the interface and `MovingAverageImpl.java` is the implementation for the same. I have created a TestClass in the same package for easy testing of the code.
+
+### Design GA system
+System design flow is in `Google Analytics system design(1).jpg` and explanation is in `GA_system_design.md`. Both files are in project root.
